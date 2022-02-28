@@ -1,6 +1,0 @@
-goog.provide('weddingnext.components.door');
-weddingnext.components.door.door = (function weddingnext$components$door$door(){
-return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),"Willkommen",new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Dein magischer Stein zeigt dir eine ","grosse Tuere. ","Auf der Tuere sind Buchstaben, deren strahlen ","dich an Sternenlich erinnert. "], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"border-style","border-style",-485574304),"double",new cljs.core.Keyword(null,"margin","margin",-995903681),"10vw",new cljs.core.Keyword(null,"font-size","font-size",-1847940346),"4vw",new cljs.core.Keyword(null,"color","color",1011675173),"#758ea7",new cljs.core.Keyword(null,"border","border",1444987323),"10px"], null)], null),"Sprich Kind und tritt ein"], null)], null);
-});
-
-//# sourceMappingURL=weddingnext.components.door.js.map
