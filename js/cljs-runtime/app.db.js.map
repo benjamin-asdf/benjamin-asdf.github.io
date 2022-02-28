@@ -1,1 +1,0 @@
-{"version":3,"sources":["app/db.cljs"],"mappings":";AAGA,iBAAA,2CAAA,0DAAA,tHAAKA;AAEL,yDAAA,zDAACC,+HAEC,WAAKC,EAAEA;AAAP,AACEF","names":["app.db/init-db","re_frame.core.reg_event_db","_"],"sourcesContent":["(ns app.db\n  (:require [re-frame.core :as rf]))\n\n(def init-db {:counter 0})\n\n(rf/reg-event-db\n  :initialize-db\n  (fn [_ _]\n    init-db))\n"]}

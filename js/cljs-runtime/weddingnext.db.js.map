@@ -1,1 +1,0 @@
-{"version":3,"sources":["weddingnext/db.cljs"],"mappings":";AAGA,yBAAA,2CAAA,0DAAA,9HAAKA;AAEL,yDAAA,zDAACC,+HAEC,WAAKC,EAAEA;AAAP,AACEF","names":["weddingnext.db/init-db","re_frame.core.reg_event_db","_"],"sourcesContent":["(ns weddingnext.db\n  (:require [re-frame.core :as rf]))\n\n(def init-db {:counter 0})\n\n(rf/reg-event-db\n  :initialize-db\n  (fn [_ _]\n    init-db))\n"]}
