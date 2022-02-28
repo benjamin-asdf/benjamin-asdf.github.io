@@ -472,6 +472,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   @weddingnext ly bg-amber-50 font-bold px-3 py-0.5 rounded text-center text-black;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -515,6 +519,14 @@ body {
   background: #17161e;
   color: #faf7f7;
   margin: 20px;
+}
+
+.bestBorder {
+  color: yellowgreen;
+  border-style: double;
+  margin-top: 2vw;
+  border-width: 10px;
+  text-align: center;
 }
 
 #myContainer {
